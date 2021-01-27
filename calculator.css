@@ -1,0 +1,44 @@
+.row{
+   display: flex;
+   max-width: 13.6em;
+   background-color: bisque;
+   flex-wrap: wrap;
+   padding: .3em;
+}
+.button
+{
+   width: 3em;
+   padding: .5em;
+   font-size: 1em;
+   margin: .2em;
+   font-weight: bold;
+   text-align: center;
+}
+.input{
+   width: 15.3em;
+   border: none;
+   padding: none;
+   margin: none;
+   background-color: white;
+   text-align: right;
+}
+
+.screen{
+   border: .1em solid;
+   border-radius: .2em;
+   width: 13em;
+   margin: .2em;
+   background-color: white;
+   padding-bottom: .1em;
+}
+.col6{
+   flex-grow: 6;
+}
+.equalTo{
+   width: 3em;
+   padding: .5em;
+   font-size: 1em;
+   margin: .2em;
+   font-weight: bold;
+   text-align: center;
+}
